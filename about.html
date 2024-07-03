@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gooble Goble Records</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="Title" id="Title">About</h1>
+    <div class="container1" id="container1">
+        <div class="container2" id="container2">
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <!-- <div class="border"></div>
+            <div class="border"></div>             -->
+        </div>
+        <svg>
+            <defs>
+                <filter id="goo"> <feGaussianBlur in="SourcGraphic" stdDeviation="10"></feGaussianBlur>
+                    <feColorMatrix in="name" mode="'matrix" 
+                    values = '1 0 0 0 0
+                              0 1 0 0 0
+                              0 0 1 0 0
+                              0 0 0 30 -15'></feColorMatrix>
+                    <feBlend in='SourceGraphic'></feBlend>
+                    
+                    
+                
+                </filter>
+            </defs>
+        </svg>
+    </div>
+
+   
+
+    <div class="contact" id="contact">
+        <h3 class="about-details">
+            Welcome to Gooble Goble Records LLC, a vibrant hub of musical creativity nestled in the heart of St. Paul, Minnesota. Our label is dedicated to cultivating and showcasing diverse talents from various genres, ranging from the soulful sounds of Gypsy Joe Lee to the dynamic soundscapes of J-Doody.
+
+Founded with a passion for music and a commitment to artist development, Gooble Goble Records LLC prides itself on providing a supportive platform for emerging and established artists alike. We believe in nurturing raw talent, fostering artistic growth, and amplifying voices that resonate with authenticity and innovation.
+
+At Gooble Goble Records LLC, we are constantly on the lookout for fresh voices and unique perspectives. Whether you're a singer-songwriter with a soulful ballad, a rapper with razor-sharp lyrics, or a band pushing the boundaries of indie rock, we want to hear from you. Our goal is to collaborate with artists who are driven by passion, creativity, and a desire to make an impact through their music.
+
+Join us as we continue to build a community where artists thrive and music flourishes. Explore your potential with Gooble Goble Records LLC, where every voice has the opportunity to be heard and celebrated.
+
+If you're ready to take your musical journey to the next level, reach out to us today. Let's create something extraordinary together.
+
+        </h3>
+    </div>
+<br>
+<br>
+<br>
+    <footer>
+        <nav>
+            <li class="option" id="home" onclick="location.href ='\home.html'">Home</li>
+            <li class="option" id="about" onclick="location.href ='\about.html'">About</li>
+            <li class="option" id="artists" onclick="location.href ='\artists.html'">Artists</li>
+            <li class="option" id="contact" onclick="location.href ='\contact.html'">Contact</li>
+        </nav>
+    </footer>
+<script src="\app.js"></script>
+</body>
+</html>

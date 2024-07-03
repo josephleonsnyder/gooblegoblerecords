@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gooble Goble Records</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="Title" id="Title">Contact</h1>
+    <div class="container1" id="container1">
+        <div class="container2" id="container2">
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <!-- <div class="border"></div>
+            <div class="border"></div>             -->
+        </div>
+        <svg>
+            <defs>
+                <filter id="goo"> <feGaussianBlur in="SourcGraphic" stdDeviation="10"></feGaussianBlur>
+                    <feColorMatrix in="name" mode="'matrix" 
+                    values = '1 0 0 0 0
+                              0 1 0 0 0
+                              0 0 1 0 0
+                              0 0 0 30 -15'></feColorMatrix>
+                    <feBlend in='SourceGraphic'></feBlend>
+                    
+                    
+                
+                </filter>
+            </defs>
+        </svg>
+    </div>
+
+   
+
+    <div class="contact" id="contact">
+        <br>
+        <br>
+        <div class="questions" id="questions"></div>
+        <h3>Contact us for inqueries, submissions or any questions by sending us an email!</h3>
+
+        <br>
+        <form method="post" action="mailto:gooblegoblerecords@gmail.com">
+            <button type="submit" value="Send Email">Email Us!</button>
+        </form>
+    </div>
+<br>
+<br>
+<br>
+    <footer>
+        <nav>
+            <li class="option" id="home" onclick="location.href ='\home.html'">Home</li>
+            <li class="option" id="about" onclick="location.href ='\about.html'">About</li>
+            <li class="option" id="artists" onclick="location.href ='\artists.html'">Artists</li>
+            <li class="option" id="contact" onclick="location.href ='\contact.html'">Contact</li>
+        </nav>
+    </footer>
+<script src="\app.js"></script>
+</body>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gooble Goble Records</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Welcome To:</h2>
+    <h1 class="Title" id="Title">Gooble Goble Records!</h1>
+    <div class="container1" id="container1">
+        <div class="container2" id="container2">
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <!-- <div class="border"></div>
+            <div class="border"></div>             -->
+        </div>
+        <svg>
+            <defs>
+                <filter id="goo"> <feGaussianBlur in="SourcGraphic" stdDeviation="10"></feGaussianBlur>
+                    <feColorMatrix in="name" mode="'matrix" 
+                    values = '1 0 0 0 0
+                              0 1 0 0 0
+                              0 0 1 0 0
+                              0 0 0 30 -15'></feColorMatrix>
+                    <feBlend in='SourceGraphic'></feBlend>
+                    
+
+                
+                </filter>
+            </defs>
+        </svg>
+
+
+
+        <img class="img1" src="images\Gooble Goble Records LLC.png">
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <button class="btn1" id="btn1">Enter</button>
+
+    </div>
+
+<script src="app.js"></script>
+</body>
+</html>
