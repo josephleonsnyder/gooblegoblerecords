@@ -65,7 +65,7 @@ nav.option {
 
 @media screen and (min-width: 600px) and (max-width: 768px){
     * {
-        margin: 10%;
+        margin: 20%;
         padding: 3%;
         display: grid;
         align-items: center;
