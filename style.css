@@ -129,17 +129,19 @@ nav.option {
 
 
 @media screen and (max-width: 600px) and (max-width: 768px) {
-.gypsy-image {height: 100px;
-    width: 100px;
+.gypsy-image {height: 300px;
+    width: 300px;
     border: solid 2pt white;
     border-radius: 15px;}
 
 .jdoody-img {
-    height: 100px;
-    width: 100px;
+    height: 300px;
+    width: 300px;
     border: solid 2pt white;
     border-radius: 15px;
 }    
+iframe {width: 280px;
+        height: 107px;
 }
 
 /* img::selection {
