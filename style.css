@@ -129,14 +129,14 @@ nav.option {
 
 
 @media screen and (max-width: 600px) and (max-width: 768px) {
-.gypsy-image {height: 300px;
-    width: 300px;
+.gypsy-image {height: 100px;
+    width: 100px;
     border: solid 2pt white;
     border-radius: 15px;}
 
 .jdoody-img {
-    height: 600px;
-    width: 600px;
+    height: 100px;
+    width: 100px;
     border: solid 2pt white;
     border-radius: 15px;
 }    
