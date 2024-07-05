@@ -147,8 +147,8 @@ nav.option {
     border: solid 2pt white;
     border-radius: 15px;
 }    
-iframe {width: 160px;
-        height: 53px;
+iframe {width: 720px;
+        height: 480px;
         margin: 5px;
         padding: 2px;
 }
