@@ -69,7 +69,7 @@ nav.option {
     justify-content: space-evenly;
     position: absolute;
     display: flex;
-    height: 50px;
+    height: 40px;
     width: 80vw;
     background-color: white;
     color: black;
@@ -83,7 +83,7 @@ nav.option {
 }
 
 nav.option {
-    font-size: 20pt;
+    font-size: 12pt;
     text-decoration: none;
     color: black;
     font-family: 'Times New Roman', Times, serif;
