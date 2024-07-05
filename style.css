@@ -37,7 +37,7 @@ h4 {
 
 nav {
     align-content: center;
-    justify-content: space-evenly;
+    justify-content: safe;
     position: absolute;
     display: flex;
     height: 50px;
