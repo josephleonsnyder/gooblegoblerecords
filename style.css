@@ -141,13 +141,13 @@ footer {
 
 @media screen and (max-width: 600px) and (max-width: 768px) {
 .gypsy-image {height: 50%;
-    width: 300px;
+    width: 500px;
     border: solid 2pt white;
     border-radius: 15px;}
 
 .jdoody-img {
     height: 50%;
-    width: 300px;
+    width: 500px;
     border: solid 2pt white;
     border-radius: 15px;
 }    
