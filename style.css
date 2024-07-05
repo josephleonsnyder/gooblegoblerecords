@@ -63,14 +63,7 @@ nav.option {
 }
 
 
-@media screen and (min-width: 600px) and (max-width: 768px){
-    * {
-        margin: 20%;
-        padding: 3%;
-        display: grid;
-        align-items: center;
-        justify-content: center;
-    }
+
     
     nav {
     align-content: center;
@@ -143,23 +136,7 @@ footer {
 }
 
 
-@media screen and (max-width: 600px) and (max-width: 768px) {
-.gypsy-image {height: 75px;
-    width: 75px;
-    border: solid 2pt white;
-    border-radius: 15px;}
 
-.jdoody-img {
-    height: 75px;
-    width: 75px;
-    border: solid 2pt white;
-    border-radius: 15px;
-}    
-iframe {width: 80vw;
-        height: 50vh;
-        margin: 5px;
-        padding: 2px;
-}
 
 /* img::selection {
     opacity: 1;
@@ -348,20 +325,4 @@ button:hover {
 }
 
 
-@media (min-width: 600px) and (max-width: 768px){
-    h1 {
-        font-size: smaller;
-    }
 
-    h2 {
-        font-size: smaller;
-    }
-
-    h3 {
-        font-size: smaller
-    }
-
-    h4 {
-        font-size: smaller;
-    }
-}
