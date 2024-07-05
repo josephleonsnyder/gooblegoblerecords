@@ -245,14 +245,14 @@ button:hover {
 }
 
 .contact {
-    display: grid;
+    display: flex;
     position: relative;
     background-color: white;
     color: black;
     margin: 5px;
     pad: 2px;
     border-radius: 10px;
-    width: 65vw;
+    width: 600px;
     justify-content: space-evenly;
     align-items: center;
 }
